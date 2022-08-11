@@ -1,7 +1,8 @@
 <script>
 	import { Meta, Story, Template } from '@storybook/addon-svelte-csf';
-
+	// FIXME: the alias won't work,
 	import Button from '$lib/components/Button.svelte';
+	// import Button from './Button.svelte'; // <-- this is the working syntax
 
 	let count = 0;
 
